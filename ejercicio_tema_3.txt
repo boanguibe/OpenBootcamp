@@ -1,0 +1,28 @@
+public class Main {
+    public static void main(String[] args) {
+
+        //creacion de objeto miCoche
+        Coche miCoche = new Coche();
+        miCoche.incrementaPuertas();
+
+        int resultado = suma(1,2,3);
+
+        // Impresiones de resultados
+        System.out.println(resultado);
+        System.out.println(miCoche.puertas);
+    }
+
+    // Funcion sumar 3 valores enteros
+    public static int suma(int n1, int n2, int n3){
+        return n1 + n2 + n3;
+    }
+}
+    // Creacion de clase coche
+    class Coche {
+        public int puertas = 0;
+
+        //creacion de funcion incrementando puertas
+        public void incrementaPuertas(){
+            this.puertas++;
+        }
+    }

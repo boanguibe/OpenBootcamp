@@ -1,16 +1,28 @@
 /* Estilos para colores */
-.colores{
+.colores {
     color: orangered;
 }
 
-.color-hexadecimal{
-    color: #3A506B;
+.color-hexadecimal {
+    color: #3a506b;
 }
 
-.color-rgb{
-    color: rgb(53, 71, 226)
+.color-rgb {
+    color: rgb(53, 71, 226);
 }
 
-.color-rgba{
-    color: rgba(10, 10, 10, 0.85)
+.color-rgba {
+    color: rgba(10, 10, 10, 0.85);
+}
+
+/* Fondos */
+.fondo-ext {
+    /* background-color: cornflowerblue; */
+    background-image: url("https://i.pinimg.com/736x/ad/f6/a6/adf6a6aabc003da342e3280c51d9a542.jpg");
+    background-position: left bottom;
+}
+.fondo-int {
+    /* background-color: cornflowerblue; */
+    background-image: url("img/fondo-background.jpg");
+    background-position: left bottom;
 }

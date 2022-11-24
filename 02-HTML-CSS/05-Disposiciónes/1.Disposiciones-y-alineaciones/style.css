@@ -1,0 +1,24 @@
+.div-1, .div-2{
+    background-color: orangered;
+    /*Por defecto div tiene -> display: block  */
+}
+
+.span-1{
+    background-color: aquamarine;
+    /*Por defecto span tiene -> display: inline  
+    observación: para trabajar con la altura hay que pasarlo a inline-block*/
+    /* display: inline-block;
+    width: 100px;
+    height: 100px; */
+    float: left;
+}
+.span-2{
+    background-color: aquamarine;
+    float:right;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}

@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color:chocolate
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.imagen-galeria{
+    width: 300px;
+    margin: 10px 5px;
+    border: 2px solid yellow;
+}
